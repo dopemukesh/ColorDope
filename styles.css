@@ -161,7 +161,6 @@ body {
     border-right: 4px solid #4443FF;
     text-align: center;
     background: #4343ff10;
-    user-select: none;
     cursor: none;
 }
 
@@ -185,7 +184,7 @@ body {
     color: #fff;
     font-weight: 500;
     font-size: 18px;
-    user-select: none;
+    
 }
 
 .green-color{
@@ -213,7 +212,6 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 1rem;
-    user-select: none;
     color: #26262670;
 }
 
