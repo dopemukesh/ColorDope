@@ -22,7 +22,7 @@ body {
 
 
 .app-view{
-    max-width: 375px;
+    /* max-width: 375px; */
     border-left: 2px solid blue;
     border-right: 2px solid blue;
 }
