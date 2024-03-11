@@ -194,7 +194,7 @@ body {
 
 .info-box .uname-bal{
     margin-left: .5rem;
-    font-weight: 600;
+    font-weight: 800;
     position: relative;
 }
 
@@ -255,7 +255,7 @@ body {
 
 .latest-trans-box #latest-title{
     font-size: .8rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .latest-trans-box #latest-depos{
