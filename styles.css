@@ -510,7 +510,7 @@ body {
 .user-records{
     overflow: hidden;
     max-width: 1280px;
-    /* min-height: 256px; */
+    max-height: 156px;
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -519,18 +519,24 @@ body {
     border: 1px dashed  #4443ff48;
     border-radius: 8px;
     gap: .2rem;
+    
 }
 
 
 .user-records-title{
     padding: 0 .5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: #4443FF;
     color: #fff;
     font-weight: 700;
+    position: sticky;
 }
 
+
+.user-records-data{
+    overflow-y: scroll;
+}
 
 .user-record-box{
     padding: 0 .5rem;
