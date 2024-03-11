@@ -63,7 +63,8 @@ body {
     width: 100%;
     height: 124px;
     /* background: linear-gradient(45deg, #ff27e2, #4443FF); */
-    background: linear-gradient(45deg, #00042a, #4443FF);
+    /* background: linear-gradient(45deg, #000f96, #6464ff); */
+    background: linear-gradient(220deg, #7987ff, #0035d5);
     /* background: linear-gradient(45deg, #003c28, #43ffa7); */
     /* background: linear-gradient(45deg, #ffe9f8, #ffc8cc); */
     /* background: linear-gradient(45deg, #FF6684, #FCBD91); */
@@ -128,7 +129,65 @@ body {
 .balance-wrapper{
     width: 100%;
     height: 96px;
-    background: #000;
+    background: #0000ffca;
+    display: flex;
+    justify-content: center;
+}
+
+
+.balance-dashboard{
+    max-width: 375px;
+    height: 100%;
+    /* background: red; */
+    margin: 0 .5rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+.user-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    flex: 1;
+}
+
+
+.img-box{
+    width: 44px;
+    height: 44px;
+    background: #bbc1ff;
+    border-radius: .4rem;
+    overflow: hidden;
+    border: 2px solid #4443FF;
+}
+
+
+.img-box img{
+    height: 100%;
+}
+
+
+.info-box{
+    display: flex;
+    padding-left: .5rem;
+    /* background: rgb(226, 167, 167); */
+}
+
+
+.info-box #username{
+    /* font-size: 1.2rem; */
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.balance-box #balance{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
 }
 
 
@@ -229,7 +288,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(0deg, #000b6f, #6060ff);
+    background: linear-gradient(220deg, #7987ff, #0035d5);
+    /* background: linear-gradient(220deg, #63b6ff, #0040ff); */
     flex: 1;
     border-radius: 8px;
     margin: 0 .5rem;
@@ -402,7 +462,8 @@ body {
         margin: .5rem;
         border-radius: 8px;
         /* background: linear-gradient(45deg, #ff27e2, #3a3aff); */
-        background: linear-gradient(45deg, #00042a, #4443FF);
+        /* background: linear-gradient(45deg, #00042a, #4443FF); */
+        background: linear-gradient(220deg, #7987ff, #0035d5);
         /* background: linear-gradient(45deg, #003c28, #43ffa7); */
         /* background: linear-gradient(45deg, #ffe9f8, #ffc8cc); */
         /* background: linear-gradient(45deg, #FF6684, #FCBD91); */
