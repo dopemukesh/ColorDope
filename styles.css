@@ -194,7 +194,7 @@ body {
 
 .info-box .uname-bal{
     margin-left: .5rem;
-    font-weight: 800;
+    font-weight: 600;
     position: relative;
 }
 
@@ -255,7 +255,7 @@ body {
 
 .latest-trans-box #latest-title{
     font-size: .8rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .latest-trans-box #latest-depos{
@@ -522,12 +522,64 @@ body {
 }
 
 
+.user-records-title{
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: space-between;
+    background: #4443FF;
+    color: #fff;
+    font-weight: 700;
+}
+
+
 .user-record-box{
     padding: 0 .5rem;
     display: flex;
     justify-content: space-between;
-    background: red;
+    /* background: red; */
+    align-items: center;
 }
+
+
+.user-record-box .num {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-record-box .num img{
+    height: 90%;
+}
+
+.user-record-box .numColor {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: .5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.user-record-box .gr {
+    background: #2cab69;
+}
+.user-record-box .rd {
+    background: #ff0000;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -577,6 +629,18 @@ body {
         z-index: 1;
         font-size: 22px;
     }
+
+    .info-box .uname-bal{
+        margin-left: .5rem;
+        font-weight: 800;
+        position: relative;
+    }
+
+    .latest-trans-box #latest-title{
+        font-size: .8rem;
+        font-weight: 800;
+    }
+
 }
 
 /* Styles for tablets (768px to 1023px) */
